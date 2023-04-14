@@ -66,8 +66,9 @@ function loaded() {
     return createdBall;
   }
 
+  let number = 70;
   let balls = [];
-  for (let i = 0; i < 70; i++) {
+  for (let i = 0; i < number; i++) {
     const options = {
       x: getRndInteger(0, canvas.width),
       y: getRndInteger(0, canvas.height),
