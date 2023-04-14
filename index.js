@@ -2,6 +2,8 @@ function loaded() {
   var canvas = document.getElementById("myCanvas");
   var ctx = canvas.getContext("2d");
 
+  canvas.style = "top: 0px; left: 0; right: 0px; bottom: 0px; margin: 0 auto; background: white"
+
   function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
   }
